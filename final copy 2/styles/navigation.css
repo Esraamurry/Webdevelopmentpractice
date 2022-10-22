@@ -1,0 +1,17 @@
+/* the styles for the horizontal navigation menu */
+#nav_menu_1 ul { list-style-type: none; }
+#nav_menu_1 ul li { float: left; }
+#nav_menu_1 ul li a {
+    text-align: center;
+    display: block;
+    width: 195px;
+    padding: 1em 0;      /* padding above and below a
+                            elements */
+    text-decoration: none;
+    background-color: rgb(18, 41, 13);
+    color: white;
+    font-weight: bold;
+    border-right: 5px solid rgb(255, 249, 249); }
+#nav_menu_1 ul li a.lastitem { border-right: none; }	
+#nav_menu_1 ul li a.current { color: rgba(182, 235, 200, 0.678); }
+

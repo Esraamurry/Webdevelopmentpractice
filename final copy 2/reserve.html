@@ -1,0 +1,84 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	  <title> Saroo'ah Cafe | Cozy lively cafe serving delicious drinks for everyone to enjoy</title>
+	  <meta charset="utf-8">
+      <meta name="description" content="Warm lively cafe with delicious specialty drinks for everyone to enjoy">
+	  <link rel="shortcut icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/Kanit/Kanit-Black.ttf"/>
+    <link rel="stylesheet" href="styles/navigation.css">
+  
+
+  </head>
+	
+<body>
+  <nav id="nav_menu_1">
+    <ul>
+      <li> <a href="index.html">Home</a></li>
+        <li> <a href="drinks.html">Drink menu</a></li>
+        <li> <a href="food.html">Food Menu</a></li>
+        <li> <a class="current" href="reserve.html">Reserve</a></li>
+        <li> <a href="events.html">Events</a></li>
+        <li> <a href="about.html">About</a></li>
+    </ul>
+  </nav>
+	  <header>
+      <img src="images/cafelight.jpeg" alt="Inside of Cafe" width="250">
+		  <h1>Saroo'ah Cafe</h1>
+      <h2>A homey and warm ambiance with surounding greenery and a tasty variety of drinks to enjoy</h2>
+
+    </header>
+
+    <main>
+        <h2>Want to reserve the Saroo'ah Cafe space?</h2>
+          <p>At Saroo'ah Cafe, our cafe is designed to give a homey and warm atmosphere for guests to enjoy with their visit. This space is beautiful for events like weddings, get-togethers, events, etc.
+             <br> To book our space, please fill out your information below and someone will contact you within one business day only on normal operation hours.</p>
+             <form action="sendmail.php" method="post" name="contact_form" id="contact_form">
+              <fieldset>
+                    <legend>Contact Information</legend>
+                      <label for="first_name">First Name:</label>
+                <input type="text" name="first_name" id="first_name" required><br>
+                <label for="last_name">Last Name:</label>
+                <input type="text" name="last_name" id="last_name" required><br>
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="email" required><br>
+                    <label for="verify">Verify Email:</label>
+                    <input type="email" name="verify" id="verify" required autocomplete="off"><br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" id="phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="999-999-9999" required><br>
+              </fieldset>
+              <fieldset>
+                  <legend>Message Information</legend>
+                <label for="reservation_date">Reservation Date:</label>
+                <input type="date" name="reservation_date" id="today_date" required><br>
+                <label for="subject">Subject:</label>         
+                      <select name="subject" id="subject">
+                          <option value="Special Events">Special Events</option>
+                          <option value="Cafe booking">Reservations</option>
+                          <option value="Catering">Catering</option>
+                          <option value="Other">Other</option>
+                      </select><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+              </fieldset>
+              <fieldset id="buttons">
+                <legend>Submit Your Email Message</legend>
+                <label>&nbsp;</label>
+                <input type="submit" id="submit" value="Send Email">
+                <input type="reset" id="reset" value="Reset"><br>
+              </fieldset>
+            </form>
+        <section>
+            <h3>CONTACT US!</h3>
+        
+          <p id="contact_us"><em>Contact us at</em> at (777)555-5555 for questions</p>
+        </section>
+    </main>
+
+    <footer>
+      <p>&copy; Copyright 2022 Saroo'ah Cafe</p>
+    </footer>
+</body>
+</html>

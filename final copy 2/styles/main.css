@@ -1,0 +1,196 @@
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: rgba(22, 59, 39, 0.966);
+}
+body {
+	font-family: kanit-black, Tahoma, sans-serif, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    border: 3px solid #ffffff;
+    background-color: #b8a78c;
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+
+
+/* the styles for the header */
+header img {
+	float: center;
+	padding: 0px 0px 0px 0px;
+	width: 1165px;
+	height: 500px;
+	border: 18px solid rgb(114, 150, 101);
+	
+	  
+	
+}
+header {
+	padding: 2em 0 2em 0;
+	border-bottom: 30px solid #312914;
+	background-image: linear-gradient(
+	    30deg, #1e3621 0%, #496148 30%, rgb(28, 46, 32) 50%, #3a2408 80%, #856f54 100%);
+}
+
+a:focus, a:hover {
+	font-style: italic;
+}
+header h1 {
+    font-size:300%;
+    font-style: oblique;
+    color:rgba(43, 126, 76, 0.849);
+    text-align: center;
+    text-shadow: 3px 3px 4px rgb(5, 1, 1);
+}
+header h2 {
+	font-size:200%;
+    font-style: oblique;
+    color:rgba(121, 163, 124, 0.849);
+    text-align: center;
+    text-shadow: 5px 3px 5px rgb(20, 17, 15);
+}
+
+
+/* the styles for the section */
+section {
+	width: 725px;
+	float: right;
+	padding: 0 20px 20px 20px;
+}
+
+section h2 {
+	color: #191f12;
+    font-style: italic;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+section h3 {
+    color: #243316;
+    font-size: 130%;
+    padding: .5em 0 .25em;
+
+}
+
+section p {
+	padding-bottom: 2em;
+}
+section blockquote {
+	padding: 0 2em;
+	font-style: italic;
+}
+
+/*the styles for the main*/
+
+main h2 {
+	font-size:250%;
+    font-style: italic;
+    color:rgba(59, 43, 13, 0.849);
+    text-align: center;
+    text-shadow: 5px 3px 5px rgb(110, 88, 58);
+}
+main h3 {
+	font-size:150%;
+    font-style: oblique;
+    color:rgba(63, 52, 30, 0.849);
+    text-align: left;
+    text-shadow: 1px 4px 6px rgb(66, 70, 66);
+}
+
+main ul {
+	padding: 0px 0px 30px 30px;
+	
+
+	
+	
+}
+main li {
+	padding-bottom: .5em;
+	
+	
+}
+
+
+/* the styles for the aside */
+aside {
+	width: 200px;
+	float: right;
+	padding: 0px 50px 1px 4px;
+}
+aside h2 {
+	color: #664736ef;
+	font-size: 160%;
+	padding: .5em 0 .5em 0;
+}
+aside h3 {
+	font-size: 130%;
+	padding-bottom: .25em;
+	padding-top: 0px;
+}
+iframe {
+	float: right;
+	padding: 20% 0% 0% 0%;
+}
+
+
+/* the styles for the footer */
+footer {
+	background-color: #382714;
+	clear: both;
+
+}
+footer p {
+	text-align: center;
+	color: rgba(243, 243, 243, 0.774);
+	padding: 2em 0;
+}
+
+/* CONTACT FORM CSS CODE */
+label {
+	float: left;
+    width: 11em;
+    text-align: right;
+}
+input, select, textarea {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: .5em;
+}
+#buttons input {
+	width: 7em;
+	color:#18422cf6
+	
+}
+fieldset {
+    margin-top: 5em;
+    margin-bottom: 1em;
+    padding-top: .5em;
+}
+legend {
+    color: rgb(40, 78, 30);
+    font-weight: bold;
+    font-size: 120%;
+    margin-bottom: .5em;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+input:required:invalid {
+    background-image: url(../images/required.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+input:focus:invalid {
+    background-image: url(../images/invalid.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+input:required:valid {
+    background-image: url(../images/valid.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
